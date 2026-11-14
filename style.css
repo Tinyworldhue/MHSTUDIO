@@ -80,3 +80,20 @@ body{background:radial-gradient(ellipse at 78% -12%,rgba(157,119,64,.12),transpa
 .site-footer{border-color:rgba(217,189,131,.16);color:#a89c87}
 .back-top,.arrow-link,.text-link:hover{color:#e2c184}
 @media(max-width:640px){.button{padding:13px 20px}.main-nav{background:#100e0b;border-color:rgba(217,189,131,.2)}.header-cta{border-radius:999px}}
+
+/* MH STUDIO — strict purple & black palette */
+:root{--bg:#08000d;--panel:#100019;--panel2:#190025;--ink:#ead7ff;--muted:#b79acb;--line:rgba(190,105,255,.24);--acid:#bd62f5;color-scheme:dark}
+html,body{background:#08000d!important;color:#ead7ff!important}
+.site-header,.main-nav,.ticker,.services,.site-footer,.page-hero,.page-cta,.contact-panel,.value-card,.principle,.service-row,.visual-frame,.float-card,.manifesto-art,.package-card,.package-icon,.header-cta,.menu-toggle{background-color:#100019!important;border-color:rgba(190,105,255,.34)!important;color:#ead7ff!important}
+.site-header{background:rgba(8,0,13,.94)!important}
+.hero-grid,.manifesto-grid{background-image:linear-gradient(rgba(190,105,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(190,105,255,.055) 1px,transparent 1px)!important}
+.hero h1 em,.intro h2 span,.section-heading h2 span,.manifesto h2 span,.eyebrow,.section-label,.kicker,.pulse,.live-dot,.mini-icon,.mini-number,.arrow-link,.text-link:hover,.back-top,.service-row>a,.service-icon,.package-label,.package-card h2,.package-price,.package-features li:before{color:#c77aff!important}
+.button-primary,.package-action{background:linear-gradient(110deg,#bd62f5,#7926a8)!important;color:#08000d!important;border-color:#bd62f5!important}
+.button-primary span,.package-action span{color:#08000d!important}
+.package-card{background:radial-gradient(ellipse at 50% 0,rgba(153,54,210,.25),transparent 58%),linear-gradient(160deg,#190025,#08000d 78%)!important;box-shadow:0 0 22px rgba(157,61,220,.22),inset 0 0 35px rgba(130,42,185,.1)!important}
+.package-featured{border-color:#bd62f5!important;box-shadow:0 0 15px rgba(189,98,245,.55),0 0 42px rgba(145,43,220,.25)!important}
+.package-icon{background:#190025!important;box-shadow:0 0 24px rgba(164,64,255,.22)!important}
+.visual-frame,.manifesto-art{background:radial-gradient(ellipse at 50% 45%,rgba(151,53,207,.25),transparent 52%),linear-gradient(140deg,#190025,#08000d 75%)!important}
+.ticker{background:#08000d!important}
+input,textarea,select,option,table,.admin-card,.panel,.modal{background-color:#100019!important;color:#ead7ff!important;border-color:rgba(190,105,255,.3)!important}
+::placeholder{color:#a987bd!important}
