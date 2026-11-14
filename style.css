@@ -97,3 +97,23 @@ html,body{background:#08000d!important;color:#ead7ff!important}
 .ticker{background:#08000d!important}
 input,textarea,select,option,table,.admin-card,.panel,.modal{background-color:#100019!important;color:#ead7ff!important;border-color:rgba(190,105,255,.3)!important}
 ::placeholder{color:#a987bd!important}
+
+/* STRICT TWO-COLOR SYSTEM: BLACK + PURPLE ONLY */
+:root{color-scheme:dark;--bg:#08000d;--panel:#100019;--panel2:#190025;--ink:#f1e4ff;--muted:#c3a8d8;--line:rgba(190,105,255,.28);--acid:#c77aff}
+html,body{background:#08000d!important;color:#f1e4ff!important}
+body{background-image:none!important}
+body *{color:#f1e4ff}
+body :is(h1,h2,h3,h4,h5,h6,strong,b,.eyebrow,.section-label,.kicker,.pulse,.live-dot,.mini-icon,.mini-number,.arrow-link,.back-top,.service-icon,.service-row>a,.package-label,.package-card h2,.package-features li:before){color:#c77aff!important}
+body :is(header,nav,main,section,footer,article,aside,.site-header,.main-nav,.ticker,.services,.site-footer,.page-hero,.page-cta,.contact-panel,.value-card,.principle,.service-row,.visual-frame,.float-card,.manifesto-art,.package-card,.package-icon,.admin-card,.panel,.modal,.card,.sidebar,.topbar,.dashboard,.content-panel){background-color:#100019!important;background-image:none!important;border-color:rgba(190,105,255,.34)!important;color:#f1e4ff!important}
+body :is(.hero,.hero-visual,.intro,.manifesto,.process,.page-content,.section-shell){background-color:#08000d!important;background-image:none!important}
+body :is(.hero-grid,.manifesto-grid){background-image:linear-gradient(rgba(190,105,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(190,105,255,.055) 1px,transparent 1px)!important}
+body :is(.button-primary,.package-action,.header-cta:hover,.admin-button,.btn-primary){background:#9d43d1!important;background-image:none!important;color:#08000d!important;border-color:#c77aff!important}
+body :is(.button-primary,.package-action,.admin-button,.btn-primary) *{color:#08000d!important}
+body :is(input,textarea,select,option,table,th,td){background-color:#100019!important;color:#f1e4ff!important;border-color:rgba(190,105,255,.34)!important}
+body :is(a:hover,.main-nav a:hover){color:#d9aaff!important}
+body svg,body svg *{stroke:#c77aff!important}
+body svg [fill]:not([fill="none"]){fill:#c77aff!important}
+body .brand-mark{color:#c77aff!important}
+body .package-card{background:linear-gradient(160deg,#190025,#08000d 78%)!important;box-shadow:0 0 22px rgba(157,61,220,.22),inset 0 0 35px rgba(130,42,185,.1)!important}
+body .package-featured{border-color:#c77aff!important;box-shadow:0 0 15px rgba(189,98,245,.55),0 0 42px rgba(145,43,220,.25)!important}
+::placeholder{color:#b79acb!important}
